@@ -26,7 +26,7 @@ $ docker run -d \
   -e INTERVAL=600 \
   -v /apps/prometheus-traefik-sd:/config \
   -e OUTPUT_DIR=/config/targets.json \
-  ghcr.io/calvinbui/homer-service-discovery
+  ghcr.io/calvinbui/prometheus-traefik-sd
 ```
 
 The application will generate JSON files to the path specified in the environment variable `OUTPUT_DIR`.
